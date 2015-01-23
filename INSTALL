@@ -2,14 +2,18 @@ INSTALLATION INSTRUCTIONS
 
 To build and install the libfec libraries, simply say
 
+autoconf
 ./configure
-make
-make test (optional)
 make install (as root)
 
+By default, "make install" installs a REDHAWK softpackage in
+$SDRROOT/dom/deps/, with softpackage name fec_v3.
+
+***OBSOLETE as of Jan 2015
 By default, "make install" puts the libfec libraries in
 /usr/local/lib, the include files in /usr/local/include, and the
 manual page in /usr/local/man.
+***
 
 You may have an old version of the GNU assembler that cannot handle
 the relatively new SSE2 mnemonics. Update your version of the GNU
