@@ -5,7 +5,7 @@ under the terms of the GNU Lesser General Public License (LGPL). See
 the file "lesser.txt" in this package for license details.
 
 Package changed in structure and purpose by Leslie McAdoo (Jan 2015).
-Files were reorganized and the build files (primarily makefile.in)
+Files were reorganized and the build files (primarily makefile.in and configure.in)
 were edited to install a redhawk softpackage instead of a normal 
 installation.
 
